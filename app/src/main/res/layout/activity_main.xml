@@ -82,13 +82,13 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:text="Cadastrar Orçamento"
-        app:layout_constraintBottom_toTopOf="textViewTermosuso"
+       
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dataOrcamentoCampo" />
 
     <TextView
-        android:id="@+id/textViewTermosuso"
+        android:id="@+id/textviewtermosuso"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
         android:layout_marginStart="8dp"
