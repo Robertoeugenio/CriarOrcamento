@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/criarorcamento"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
@@ -10,7 +11,7 @@
 
     <EditText
         android:id="@+id/dataOrcamentoCampo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -43,7 +44,7 @@
 
     <EditText
         android:id="@+id/descriçãoCampo"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -60,7 +61,7 @@
 
     <EditText
         android:id="@+id/preçoOrcamento"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -82,7 +83,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:text="Cadastrar Orçamento"
-       
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dataOrcamentoCampo" />
